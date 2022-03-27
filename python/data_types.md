@@ -12,8 +12,8 @@ To create a string, use single or double quotes
 ## Concatenation
 Strings can be concatenated 
 ```
-"Hello" + ' ' + "world"   # returns "Hello world" 
-"5" + "3" 				  # returns "53"
+"Hello" + ' ' + "world"  # returns "Hello world" 
+"5" + "3"		 # returns "53"
 ```
 ## Length 
 Each string has a length. Use `len` function to find it
@@ -24,7 +24,7 @@ len("Hello")	# returns 5
 Strings support indexing, meaning all elements (characters) of a string have an index, and we can access each one of them individually. 
 ```
 "Life is good"[0]	# returns "L"
-"Music[-1]"			# returns "c"
+"Music[-1]"		# returns "c"
 ```
 **_NOTE:_**  The first element has index 0
 
@@ -44,7 +44,7 @@ Strings support various methods, just to name few:
 ```
 “String”.lower()		# returns "string"
 “string”.upper()		# returns "STRING"
-“string”.capitalize()	# returns "String"
+“string”.capitalize()		# returns "String"
 “StRiNg”.swapcase()		# returns "sTrInG"
 ```
 
@@ -65,6 +65,6 @@ Python supports standard mathematical operations:
 2 * 3		# 6
 8 / 4		# 2
 5 % 3		# 2
-6 ** 2      # 36
-13 // 4     # 3
+6 ** 2     	# 36
+13 // 4     	# 3
 ```
