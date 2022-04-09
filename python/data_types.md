@@ -68,3 +68,27 @@ Python supports standard mathematical operations:
 6 ** 2     	# 36
 13 // 4     	# 3
 ```
+# Booleans
+Boolean is a special type and represents either `True` or `False`. Booleans are usually used to control a code flow.
+```
+a = 15
+if a > 10:	# a > 10 evaluates to a boolean True
+	print(f"{a} is greater than 10")
+``` 
+To evaluate an expression to a boolean, you can use `bool()`function:
+```
+print(bool("Hello"))  # True
+print(bool(15))		  # True
+print(bool([1, 2, 3]))		  # False
+```
+**_NOTE:_**  Python considers `0`, empty string, and empty list to be False when converting them to a boolean
+```
+print(bool("")) 	  # False
+print(bool(0))		  # False
+print(bool([]))		  # False
+```
+# Null
+`NoneType` is a special type in Python. To create one, use a keyword `None`:
+```
+empty_var = None
+```
