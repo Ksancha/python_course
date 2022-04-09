@@ -2,7 +2,7 @@
 A function is a block of code which only runs when it is called. A function can be parametrized. To define a function, use a keyword `def` followed by the name of your function (it can be anything, but should make sense):
 ```
 def print_first_char(word):
-	print(word[0])	# prints first character of a word
+	print(word[0])	  # prints first character of a word
 
 print_first_char("Hello") # prints 'H'
 ```
